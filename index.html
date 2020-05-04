@@ -1,23 +1,189 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Choose a website</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="mb-5">What website are you going to be building?</h1>
-            <div class="row">
-                <div class="col-sm-2 bg-dark text-center">
-                    <a href="./website1/designs/thumb.jpg"><img style="max-height: 100px;" class="img-responsive" src="website1/designs/thumb.jpg"></img></a>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>One Page Wonder - Start Bootstrap Template</title>
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Custom CSS -->
+	<link href="assets/css/style.css?v0.1" rel="stylesheet">
+	<style type="text/css">
+		.jumbotron {
+			background-image: url("website1/assets/img/bg.jpg");
+			height: 450px;
+		}
+
+		.rounded {
+			border-radius: 100%;
+			height: 250px;
+			display: flex;
+            float: right;
+		}
+
+		.display-4 {
+			font-size: 80px;
+			text-align: center;
+		}
+
+		.lead {
+			font-size: 50px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container .flex-column">
+		<div class="container">
+			<ul class="nav">
+				<li class="navbar-brand" href="">Start Bootstrap</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#About">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- /.container -->
+		</nav>
+		<!-- Page Content -->
+		<div class="container">
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="bg-white text-dark">
+						<h1 class="display-4">One Page Wonder</h1>
+					</div><br>
+					<div class="bg-white text-dark">
+						<h2 class="lead">Will Knock Your Socks Off</h2>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class="container d-flex flex-row">
+				<div class="row col-8">
+					<h1 id="About"><strong>This First Heading</strong> Will Catch Your Eye</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+						pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus.
+						Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+				</div>
+				<div class="flex-row col-4">
+					<img class="rounded" src="website1/assets/img/1.jpg">
                 </div>
-                <div class="col-sm-10">
-                    <h2>One Page Wonder - Start Bootstrap Template</h2>
-                    <a class="btn btn-primary" href="./website1/">See it live</a>
-                    <a class="btn btn-warning" href="./website1/designs/thumb.jpg">See how it should look</a>
-                    <a class="btn btn-danger" href="./website1/designs/guide.jpg">See the guide</a>
-                </div>
-            </div>
-        </div>
-    </body>
+
+				</div>
+			</div>
+			<br><br>
+			<div class="container container d-flex flex-row">
+				<div class="flex-row col-4">
+					<img class="rounded" src="website1/assets/img/2.jpg">
+				</div>
+					<div class="flex-row col-8">
+						<h1><strong>This Second Heading</strong> Is Pretty Cool Too.</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+							gravida
+							pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec
+							metus.
+							Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- Portfolio Item Heading -->
+			<br><br>
+			<div class="container">
+				<div class="flex-row col-12">
+					<h1 id="Portfolio">Portfolio</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type specimen book. It has survived not only five
+						centuries.</p>
+				</div>
+				<div class="flex-row col-12">
+					<div class="card-group">
+						<div class="card">
+							<img class="card-img-top" src="http://placehold.jp/300x200.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Project Name</h2>
+								<p class="card-text">This is a wider card with supporting text below as a natural
+									lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="http://placehold.jp/300x200.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Project Name</h2>
+								<p class="card-text">This card has supporting text below as a natural lead-in to
+									additional content.</p>
+							</div>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="http://placehold.jp/300x200.png" alt="Card image cap">
+							<div class="card-body">
+								<h2 class="card-title">Project Name</h2>
+								<p class="card-text">This is a wider card with supporting text below as a natural
+									lead-in to additional content. This card has even longer content than the first
+									to
+									show that equal height action.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<br><br>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h1 id="Contact">Contact</h1>
+							<p>This is a wider card with supporting text below as a natural
+								lead-in to additional content. This card has even longer content than the first to
+								show that equal height action</p>
+							<div class="container col-8 p-3 mb-2 bg-light text-dark ">
+								<form>
+									<div class="form-group">
+										<label for="exampleInputEmail1">Your E-mail</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
+								</div>
+										<div class="form-group">
+											<label for="exampleInputPassword1">Your Message</label>
+											<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Please enter your message here...">
+  </div>
+											<div class="form-check">
+
+											</div>
+											<button type="submit" class="btn btn-primary float-right">Submit</button>
+								</form>
+							</div>
+						</div>
+
+						<!-- Footer -->
+						<br><br>
+						<footer>
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Copyright &copy; Your Website 2014</p>
+								</div>
+							</div>
+							<!-- /.row -->
+						</footer>
+
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="assets/js/fix.js"></script>
+</body>
+
 </html>
